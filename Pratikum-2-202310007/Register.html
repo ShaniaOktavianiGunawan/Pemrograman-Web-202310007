@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+
+    <link rel="stylesheet" href="./Assets/Css/Register.css">
+</head>
+<body>
+    <div id = "Register">
+    <h1>Register</h1>
+    <form action="" method="post">
+        <div class="RegisterInput">
+            <label for="">Input NPM :</label>
+            <input type="text" value="" name="NPM"/>
+        </div>
+
+        <div class="RegisterInput">
+            <label for="">Input Nama :</label>
+            <input type="text" value="" name="fullname"/>
+        </div>
+
+        <div class="RegisterInput">
+            <label for="">Input Email :</label>
+            <input type="text" value="" name="fullname"/>
+        </div>
+
+        <div class="RegisterInput">
+            <label for="">Input Password :</label>
+            <input type="password" value="" name="password"/>
+            
+        </div>
+        
+        <div class="RegisterInput">
+            <label for="">Place Birth :</label>
+            <input type="text" value="" name="Place_Birth"/>
+        </div>
+
+        <div class="RegisterInput">
+            <label for="">Birthdate :</label>
+            <input type="date" name="Birthdate"/>
+        </div>
+
+        <div class="Gender">
+            <label for="">Input Gender :</label>
+            <input type="radio" name="gender" value="Male" >Male
+            <input type="radio" name="gender" value="Female" >Female
+        </div>
+
+        <div class="Address">
+            <label for="">Address :</label>
+            <textarea cols="30" row="10" name="addres"></textarea>
+            
+        </div>
+
+        <div class="RegisterButton">
+            <button type="button"  class="btn-red" onclick="window.location.replace('Login.html')">Next</button>
+           
+            <button type="submit" class="btn-blue">Cencel</button>
+        </div>
+        
+
+    </form>
+    </div>
+</body>
+</html>

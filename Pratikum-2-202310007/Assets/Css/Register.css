@@ -1,0 +1,77 @@
+html, body {
+    height: 100%;
+}
+body{
+    background-image: url("../Media/aurora.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    width: 50%;
+    height: 50%;
+
+}
+#Register {
+    border: 2px solid ;
+    margin: 0 auto;
+    width: 50%;
+    border: 2px solid white;
+    margin-top: 50px;
+    padding: 10px;
+    box-shadow: 5px 20px 50px #000;
+
+}
+#Register > h1 {
+    color: salmon;
+    text-align: center;
+}
+.RegisterInput{
+    font-weight: bold;
+    color: darkred;
+    margin-bottom: 15px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.RegisterInput > input {
+    margin-top: 5px;
+    width: 100%;
+}
+.Gender {
+    font-weight: bold;
+    color: darkred;
+    padding-right: 50px;
+    padding-left: 50px;
+    
+}
+.Address{
+    font-weight: bold;
+    color: darkred;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-top: 10px;
+    
+}
+.Address > textarea {
+    margin-top: 5px;
+    width: 100%;
+
+}
+.RegisterButton {
+    text-align: right;
+    margin-top: 10px;
+    
+}
+
+.RegisterButton > button{
+    padding: 10px 15px;
+    font-weight: bold;
+    
+
+}
+.btn-blue {
+    background-color: blue;
+    color: white;
+}
+.btn-red{
+    background-color:white;
+    color: black;
+}
