@@ -1,0 +1,140 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background: white;
+    margin: auto auto;
+    width: 70%;
+    font-family: 'Lato';
+}
+
+.visimisi {
+    display: flex;
+    position: relative;
+    padding: 10px;
+    align-items: center;
+    box-shadow: 10px 0px 30px 0px rgb(216, 216, 216);
+    margin-top: 3rem
+};
+
+.imageContener {
+justify-content: flex-start;
+
+}
+.visimisi img {
+    width: 50%;
+    height: 100%;
+}
+.foto {
+    background-color: rgb(92, 13, 92);
+    font-weight: 800;
+    width: 50%;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    margin-top: -5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.visi-misiText {
+    margin-left: -15rem;
+}
+.visi h1{
+    color: rgb(92, 13, 92);
+    margin-bottom: 10px;
+
+}
+.visi{
+    margin-bottom: 15px;
+}
+.misi h1{
+    color: rgb(92, 13, 92);
+    margin-bottom: 10px;
+
+}
+.kampus{
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+
+}
+.peta{
+    box-shadow: 10px 0px 30px 0px rgb(216, 216, 216);
+    width: 50%;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    
+
+
+}
+.maps {
+    text-align: center;
+    color: rgb(92, 13, 92);
+    padding-bottom: 5px;
+
+}
+.info{
+   
+    width: 50%;
+    padding: 10px;
+}
+.infomatkul{
+    box-shadow: 10px 0px 30px 0px rgb(216, 216, 216);
+    padding: 20px;
+}
+.infomatkul h1{
+    color: rgb(92, 13, 92);
+    margin-bottom: 10px;
+}
+table,th,td{
+    border: solid black 0.3px;
+}
+
+td{
+    color: rgb(173, 173, 173);    
+}
+.kode{
+
+}
+.kode1{
+    margin-bottom: 10px;
+    color: rgb(92, 13, 92);
+}
+.kode2{
+    color: rgb(92, 13, 92);
+}
+.nav {
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+    overflow: hidden;
+}
+  
+.nav > li {
+    float: left;
+    padding: 10px;
+    margin: 5px;
+    background-color: #fff;
+    color: purple;
+    border: 1px solid purple;
+    border-radius: 5px;
+}
+  
+.nav > li:hover {
+    color: #fff;
+    background-color: purple;
+}
+  
+.nav > li.active {
+    color: #fff;
+    background-color: purple;
+}
